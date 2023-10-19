@@ -3,7 +3,7 @@ video=cv2.VideoCapture(0)
 facedetect=cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 recognizer = cv2.face.LBPHFaceRecognizer_create()
 recognizer.read("trainer.yml")
-namelist=["","sumedh","mam","bharati","akka","aditya","varshini"]
+namelist=[""]
 imgBackground=cv2.imread("background.jpeg")
 while True:
 
